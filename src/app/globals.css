@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #e2ebed;
+  --foreground: #1a2224;
+}
+
+@theme {
+  --color-primary: #3ea3c6;
+  --color-secondary: #1a2224;
+  --color-white: #e2ebed;
+  --color-black: #1a2224;
+  --color-gray: #808080;
+  /* Tailwind-style breakpoints in rem for zoom-resilience */
+  --breakpoint-sm: 40rem;    /* 640px */
+  --breakpoint-md: 48rem;    /* 768px */
+  --breakpoint-lg: 64rem;    /* 1024px */
+  --breakpoint-xl: 80rem;    /* 1280px */
+  --breakpoint-2xl: 90rem;   /* 1440px */
+  --breakpoint-3xl: 120rem;  /* 1920px */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-archivo), Arial, Helvetica, sans-serif;
+}
