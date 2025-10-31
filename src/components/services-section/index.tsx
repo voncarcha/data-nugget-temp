@@ -31,16 +31,16 @@ const SERVICES_ITEMS: {
 
 const ServicesSection = () => {
   return (
-    <section className="bg-secondary px-[15px] py-[100px] text-white md:px-[42px]">
+    <section className="bg-secondary px-[15px] py-[30px] md:py-[50px] xl:py-[100px] text-white md:px-[42px]">
       <div className="3xl:max-w-[1410px] mx-auto max-w-[940px] 2xl:max-w-[1170px]">
-        <h2 className="text-center text-[40px] font-medium">
+        <h2 className="text-center text-[30px] 2xl:text-[40px] font-medium">
           Custom Software Solutions
         </h2>
-        <p className="text-center text-[25px] font-thin">
+        <p className="text-center text-[23px] 2xl:text-[25px] font-thin">
           Tailored Software to Power Your Data-Driven Success
         </p>
 
-        <ul className="mt-[50px] grid grid-cols-1 gap-[50px] 2xl:grid-cols-3 2xl:gap-[30px]">
+        <ul className="pt-[30px] md:mt-[50px] grid grid-cols-1 gap-[50px] 2xl:grid-cols-3 2xl:gap-[30px]">
           {SERVICES_ITEMS.map((item) => (
             <li
               key={item.id}
@@ -51,7 +51,7 @@ const ServicesSection = () => {
                 alt="service-1"
                 width={450}
                 height={450}
-                className="3xl:w-[450px] 3xl:h-[450px] mx-auto h-auto w-[300px] 2xl:h-[370px] 2xl:w-[370px]"
+                className="3xl:w-[450px] 3xl:h-[450px] mx-auto h-auto w-[768px] md:w-[300px] 2xl:h-[370px] 2xl:w-[370px]"
               />
               <article>
                 <h3 className="text-[22px] leading-[1.27] font-medium 2xl:pt-[30px]">

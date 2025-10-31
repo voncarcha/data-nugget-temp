@@ -1,8 +1,16 @@
-import React from 'react'
+import TopNavigation from '@/components/top-navigation'
+import HeaderSection from '@/components/header-section'
+import FooterSection from '@/components/footer-section'
+import PrivacySection from '@/components/privacy-section'
 
 const PrivacyAndCookiePolicyPage = () => {
   return (
-    <div>PrivacyAndCookiePolicyPage</div>
+    <main>
+      <TopNavigation />
+      <HeaderSection title="Privacy & Cookie Policy" />
+      <PrivacySection />
+      <FooterSection />
+    </main>
   )
 }
 
